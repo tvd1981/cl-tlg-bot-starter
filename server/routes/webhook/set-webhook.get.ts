@@ -2,7 +2,7 @@ import { bot } from '../../utils/bot'
 
 export default defineEventHandler(async () => {
   const config = useRuntimeConfig()
-  const webhookUrl = `${config.public.baseUrl}/w3bhook`
+  const webhookUrl = `${config.public.baseUrl}/webhook`
 
   try {
     // Set webhook với secret token
